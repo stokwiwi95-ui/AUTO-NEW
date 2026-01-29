@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "axios": "^1.13.2",
+    "colors": "^1.4.0",
+    "common-tags": "^1.8.2",
+    "discord.js": "^14.7.1",
+    "fs": "^0.0.1-security",
+    "luxon": "^3.4.4",
+    "mongoose": "^8.0.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.2",
+    "qrcode": "^1.5.4",
+    "quick.db": "^9.1.7",
+    "request": "^2.88.2",
+    "sharp": "^0.33.4"
+  },
+  "name": "autostore-v7.0",
+  "version": "7.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "Ngecoding Nusantara",
+  "license": "MIT",
+  "description": "An awesome discord ticket bot and its per server bot without database usage"
+}

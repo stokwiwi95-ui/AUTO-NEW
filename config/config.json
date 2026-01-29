@@ -1,0 +1,7 @@
+{
+    "TOKEN": "TOKEN",
+    "MongoURL": "MongoDB",
+    "CLIENTID": "CLIENTID",
+    "Owner": "UserID",
+    "Admin": ["", ""]
+}

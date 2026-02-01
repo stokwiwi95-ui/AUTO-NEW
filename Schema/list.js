@@ -2,6 +2,7 @@ let { Schema, model } = require("mongoose")
 
 let sche = new  Schema({
 	product_id: Number,
+	product_name: String,
 	role_id: String,
 	product_price: Number,
 	sold: {

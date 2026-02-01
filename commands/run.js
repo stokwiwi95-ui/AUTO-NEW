@@ -59,19 +59,10 @@ module.exports = {
                 let activities = [`type /help To See How To Buy`, `Using Slide Option To Order Product`], i = 0;
                 async function fetchProductsAPI() {
                     try {
-                        const response = await axios.post("https://growtechcentral.site/api/services",
-                            new URLSearchParams({
-                                api_id: API_ID,
-                                api_key: API_KEY,
-                                secret_key: SECRET_KEY
-                            }),
-                            {
-                                headers: { "Content-Type": "application/x-www-form-urlencoded" }
-                            }
-                        );
-                        return Array.isArray(response.data.data) ? response.data.data : [];
+                        const products = await list.find({});
+                        return Array.isArray(products) ? products : [];
                     } catch (err) {
-                        console.error("Error fetching API products:", err.message);
+                        console.error("Error fetching products:", err.message);
                         return [];
                     }
                 }
